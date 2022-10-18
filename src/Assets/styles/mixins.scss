@@ -1,0 +1,31 @@
+@mixin font-bold{
+    font-weight: 700;
+}
+@mixin font-med{
+    font-weight: 500;
+}
+@mixin font-reg{
+    font-weight: 400;
+}
+@mixin display_flex{
+    display: flex;
+    flex-wrap: wrap;
+}
+@mixin align_center{
+    align-items: center;
+}
+@mixin just_center{
+    justify-content: center;
+}
+@mixin justify_sp{
+    justify-content: space-between;
+}
+@mixin flex_colum{
+    flex-direction: column;
+}
+@mixin mediaq($point) {
+    @media screen and (max-width : $point) { @content; }
+}
+@mixin mediaqmin($point) {
+    @media screen and (min-width : $point) { @content; }
+}

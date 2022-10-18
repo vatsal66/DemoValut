@@ -1,0 +1,261 @@
+.left-container {
+    padding: 0 45px;
+}
+
+.chart-first-title {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 20px;
+    color: #626D6D;
+    text-align: left;
+
+    @media (max-width: 768px) {
+        text-align: center;
+    }
+}
+
+.progressBar {
+    svg {
+        height: 150px;
+    }
+}
+
+.chart-first-header {
+    font-weight: 700;
+font-size: 32px;
+line-height: 40px;
+color: #0D1F20;
+margin-bottom: 2%;
+text-align: left;
+
+@media (max-width: 768px) {
+    text-align: center;
+}
+
+}
+
+.chart-first {
+    // width: 80%;
+    padding-top: 3%;
+}
+
+.circle-cart {
+    display: flex;
+    text-align: center;
+    align-items: center;
+}
+
+.circle-chart-text {
+    position: absolute;
+    top: 52%;    
+    left: 18%;
+
+    .first-text {
+        color: #FFFFFF;
+        font-size: 24px;
+        line-height: 32px;
+    }
+
+    .second-text {
+        color: #FFFFFF;
+        font-size: 12px;
+        line-height: 16px;
+    }
+}
+
+.circle-chart-text-second {
+    position: absolute;
+    top: 30%;  
+    left: 15px;
+
+    .first-text {
+        color: #0D1F20;
+        font-size: 14px;
+        line-height: 20px;
+    }
+
+    .second-text {
+        color: #0D1F20;
+        font-size: 12px;
+        line-height: 16px;
+    }
+}
+
+.circle-cart-firts {
+    background: #3A7B58;
+    width: 146px;
+    height: 146px;
+    border-radius: 50%;
+}
+
+.circle-cart-second {
+    background: #DAECC4;
+    width: 89px;
+height: 89px;
+border-radius: 50%;
+position: relative;
+    right: 25px;
+}
+
+
+.first-chart-text-container {
+    margin: auto;
+    text-align: center;
+
+
+    .chart-first-header { 
+        font-size: 24px;
+    }
+}
+
+.progressBar-container {
+    display: flex;
+    height: 16px;
+    margin-top: 20px;
+    margin-bottom: 30px;
+
+    .first-progressBar {
+        background: #3A7B58;
+        width: 1%;
+    }
+
+    .second-progressBar {
+        background: #A5C796;
+        width: 40%;
+    }
+
+    .thired-progressBar {
+        background: #65A360;
+        width: 15%;
+    }
+
+    .forth-progressBar {
+        background: #8FC866;
+        width: 15%;
+    }
+
+    .fifth-progressBar {
+        background: #DAECC4;
+        width: 15%;
+    }
+
+    .second-progressBar {
+        background: #3A7B58;
+        width: 60%;
+    }
+
+    .second-progressBar2 {
+        background: #65A360;
+        width: 30%;
+    }
+
+    .second-progressBar3 {
+        background: #DAECC4;
+        width: 10%;
+    }
+}
+
+.first-progress-text-container {
+    display: flex;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 24px;
+    color: #0D1F20;
+    margin-left: 16%;
+    margin-bottom: 5%;
+
+
+    @media (max-width: 738px) {
+        margin-left: unset;
+    }
+
+    .first-progress-text {
+        width: 12px;
+        height: 12px;
+        
+        border-radius: 1px;
+        margin-top: 6px;
+        margin-right: 10px;
+    }
+
+    .bg-first-progress {
+        background: #3A7B58;
+    }
+    .bg-second-progress {
+        background: #65A360;
+    }
+    .bg-thired-progress {
+        background: #DAECC4;
+    }
+    .bg-four-progress {
+        background: #A5C796;
+    }
+    .bg-fifth-progress {
+        background: #8FC866;
+    }
+}
+
+
+.second-progress-text-container {
+    display: flex;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 24px;
+    color: #0D1F20;
+    margin-left: 0%;
+    margin-bottom: 5%;
+
+    .first-progress-text {
+        width: 12px;
+        height: 12px;
+        background: #3A7B58;
+        border-radius: 1px;
+        margin-top: 6px;
+        margin-right: 10px;
+    }
+}
+
+.right-container {
+    border-left: 1px solid #DADFD8;
+
+    @media (max-width: 1200px) {
+        border-left: unset;
+    }
+}
+
+.right-bottom-container {
+    padding-bottom: 5%;
+    border-bottom: 1px solid #DADFD8;
+}
+
+.circle-cart {
+    padding: 0 15%;
+}
+
+.right-chart-container {
+    padding-top: 5%;
+}
+
+.left-first-proggress {
+    border-bottom: 1px solid #DADFD8;
+}
+
+.left-second-progress {
+    padding-top: 5%;
+}
+
+.indicator {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+    user-select: none;
+    align-items: center;
+    font-weight: 700;
+font-size: 24px;
+line-height: 32px;
+}

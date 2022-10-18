@@ -1,0 +1,183 @@
+// If you want to override variables do it here
+// bootstrap
+@import "~bootstrap/scss/mixins";
+
+@import "mixins";
+@import "colors";
+@import "index";
+
+// Import styles
+@import "~@coreui/coreui/scss/coreui";
+
+// icons sets
+@import "font-awesome/css/font-awesome.min.css";
+
+// Import styles
+// @import "~@coreui/coreui/scss/coreui";
+
+body {
+    font-family: 'Urbanist' !important;
+}
+
+.MuiListItemIcon-root {
+    min-width: 0!important;
+}
+
+// pagination disable text css it's affect all pagination view
+.customTablePager {
+    li {
+        border: 1px solid #c8ced3;
+        padding: 5px 15px;
+    }
+    li.btn-first-page.disabled a,
+    li.btn-prev-page.disabled a {
+        color: #73818f;
+    }
+    li.btn-next-page.disabled a,
+    li.btn-last-page.disabled a {
+        color: #73818f;
+    }
+}
+
+.makeStyles-linkIcon-80 {
+    color: white !important;
+}
+
+.makeStyles-linkText-82 {
+    color: white !important;
+}
+
+.MuiPaper-root {
+    background: linear-gradient(180deg, #16483E 0%, #4B9E6A 100%);
+}
+
+.makeStyles-linkActive-120 {
+    width: 2px !important;
+    height: 24px !important;
+    margin: 30px 0 !important;
+    background-color: #FEDA64 !important;
+}
+
+
+.makeStyles-link-119 {
+    margin: 30px 0 !important;
+    height: 24px !important;
+
+   
+    .makeStyles-linkIcon-122 {
+        color: white !important;
+        margin-left: 15px;
+    }
+
+    .makeStyles-linkText-124 {
+        color: white !important;
+        font-family: 'Urbanist' !important;
+    }
+
+    .makeStyles-linkTextActive-125 {
+        color: #FEDA64 !important;
+        font-family: 'Urbanist' !important;
+        font-weight: 700;
+    }
+
+    .makeStyles-linkIconActive-123 {
+        color: #FEDA64 !important;
+    }
+
+    &:hover {
+        background-color: unset !important;
+
+        .makeStyles-linkIcon-122 {
+            color: #FEDA64 !important;
+            font-weight: 700;
+        }
+
+        .makeStyles-linkText-124 {
+            color: #FEDA64 !important;
+            font-family: 'Urbanist' !important;
+        }
+    }
+}
+
+
+.MuiListItem-gutters {
+    padding: unset !important;
+}
+
+
+
+.MuiListItem-button {
+    transition: unset !important;
+}
+.makeStyles-drawerOpen-98 {
+    width: 210px !important;
+    padding-top: 30px;
+
+    img {
+        margin-left: 15px;
+    }
+}
+
+.progressBar {
+    .RCP {
+        @media (max-width: 768px) {
+            width: 100% !important;
+            text-align: center;
+        }
+    }
+}
+
+.makeStyles-mobileBackButton-102 {
+    margin-left: unset !important;
+}
+
+.makeStyles-fakeToolbar-4 {
+    @media (min-width: 1200px) {
+        min-height: 0px !important;
+    }
+}
+
+.second-menu-list {
+    .makeStyles-linkIcon-122  {
+        margin-left: 15px;
+        background:  rgb(38, 110, 87);
+        width: 40px !important;
+        height: 40px;
+        border-radius: 50%;
+        justify-content: center;
+    }
+}
+
+.makeStyles-linkIconActive-123 {
+    margin-left: 15px;
+}
+
+.MuiSvgIcon-root {
+    margin: auto;
+}
+
+.borderLineMenu {
+    border: 1px solid #DADFD8;
+    opacity: 0.1;
+    margin: 35px 0;
+}
+
+.second-logo {
+    overflow: hidden;
+
+    img {
+        margin-left: unset;
+    }
+}
+
+.lastMenu {
+    padding-top: 25px;
+}
+
+.profite-number {
+    font-weight: 700;
+    font-family: 'Urbanist';
+font-size: 14px;
+line-height: 20px;
+color: #3A7B58;
+}
